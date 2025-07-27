@@ -1,0 +1,11 @@
+.navigation{
+	@apply flex flex-row items-center;
+
+	&-inner{
+		@apply hidden lg:flex flex-row items-center gap-5;
+	}
+
+	&-link{
+		@apply text-xs font-medium uppercase text-[#0C4A6E];
+	}
+}
