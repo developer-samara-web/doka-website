@@ -1,7 +1,6 @@
-import "@/app/home/_components/HomeHero/HomeHero.css";
-
-import Icon from "@/components/commons/Icon/Icon";
 import Link from "next/link";
+import Icon from "@/shared/ui/Icon/Icon";
+import "@/app/home/sections/Hero/Hero.css";
 
 export default function HomeHero() {
 	return (

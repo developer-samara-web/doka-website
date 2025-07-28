@@ -3,8 +3,8 @@ export const metadata = {
   description: process.env.NEXT_PUBLIC_APP_DESCRIPTION,
 };
 
-import HomePage from "@/app/home/_components/HomePage/HomePage";
+import HomeContainer from "@/app/home/HomeContainer";
 
 export default function Home() {
-  return <HomePage />
+  return <HomeContainer />
 }

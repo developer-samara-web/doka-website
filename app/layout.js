@@ -1,10 +1,10 @@
-import "@/app/globals.css";
+import "@/styles/globals.css";
 
 import { Roboto } from "next/font/google";
 
 const roboto = Roboto({ subsets: ["latin"] });
 
-import UserLayout from "@/components/layout/UserLayout/UserLayout";
+import UserLayout from "@/layouts/UserLayout/UserLayout";
 
 export default function RootLayout({ children }) {
   return (

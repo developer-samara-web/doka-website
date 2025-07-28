@@ -1,6 +1,6 @@
-import "@/components/commons/Bars/Bars.css";
+import "@/shared/ui/Bars/Bars.css";
 
-import Icon from "@/components/commons/Icon/Icon";
+import Icon from "@/shared/ui/Icon/Icon";
 
 export default function Bars() {
 	return (

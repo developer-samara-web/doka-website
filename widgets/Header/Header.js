@@ -1,7 +1,6 @@
-import "@/app/home/_components/Header/Header.css";
-
-import Logo from "@/components/commons/Logo/Logo";
-import Navigation from "@/components/sections/Navigation/Navigation";
+import Logo from "@/widgets/Header/Logo";
+import Navigation from "@/widgets/Header/Navigation";
+import "@/widgets/Header/Header.css";
 
 export default function Header() {
 	return (
