@@ -2,6 +2,6 @@
 	@apply flex flex-row items-center justify-center border border-slate-50;
 
 	&-container {
-		@apply flex items-center justify-between container py-5;
+		@apply flex items-center justify-between container p-5;
 	}
 }
