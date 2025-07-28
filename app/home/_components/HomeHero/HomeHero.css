@@ -1,0 +1,27 @@
+.hero{
+	@apply flex flex-col items-center justify-between w-full py-14 lg:py-28 bg-slate-50 bg-no-repeat bg-[length:700px] bg-[center_right_-50rem] lg:bg-[center_right_-10rem] xl:bg-[center_right_-10rem] 2xl:bg-[center_right_10rem];
+
+	&-container{
+		@apply flex flex-col items-center lg:items-start gap-5 container px-5;
+	}
+
+	&-title{
+		@apply text-3xl lg:text-6xl uppercase font-black w-full text-center lg:text-left lg:w-1/2 text-[#0C4A6E];
+	}
+
+	&-description{
+		@apply text-lg text-slate-600 w-full text-center lg:text-left lg:w-1/4;
+	}
+
+	&-button{
+		@apply flex flex-row items-center justify-center gap-2 rounded-lg bg-[#facc15] px-2 py-2;
+
+		&-text{
+			@apply py-2 px-8 border-l border-[#ffffff54] text-sm text-[#412f00] font-medium uppercase;
+		}
+
+		&-icon{
+			@apply py-2 pl-2 pr-1 size-9 text-[#412f00];
+		}
+	}
+}
